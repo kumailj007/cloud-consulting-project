@@ -1,3 +1,5 @@
+![Architecture Diagram](./final-product.png)
+
 # Azure Cloud Architecture Design
 
 ## Architecture Overview
