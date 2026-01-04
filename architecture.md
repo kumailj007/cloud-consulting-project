@@ -1,4 +1,5 @@
-![Architecture Diagram](./final-product.png)
+![Architecture Diagram](./structure.png)
+
 
 # Azure Cloud Architecture Design
 
