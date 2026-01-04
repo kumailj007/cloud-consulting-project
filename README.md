@@ -1,14 +1,45 @@
-# Cloud Infrastructure Design & Cost Optimization (Azure)
+# Cloud Infrastructure Design — Secure & Cost-Optimized Azure Architecture
 
-## Project Overview
-This project simulates a real-world cloud consulting engagement where a mid-size company migrates its infrastructure to Microsoft Azure.  
-The objective is to design a secure, scalable and cost-efficient cloud environment aligned with business goals.
+## Executive Summary
+This project presents a secure, scalable, and cost-optimized cloud architecture designed for a modern business workload using Microsoft Azure.  
+The solution focuses on high availability, data protection, and financial efficiency.
 
-## Objectives
-- Design a production-ready Azure architecture
-- Implement security and governance best practices
-- Optimize cloud costs
-- Deliver executive-level documentation and recommendations
+## Business Objectives
+- Provide a secure web application hosting environment
+- Protect sensitive data using layered security
+- Ensure high availability and disaster recovery
+- Optimize cloud spending and resource utilization
 
-## Technologies
-Microsoft Azure · Cloud Architecture · Security & Governance · Cost Optimization
+## Architecture Overview
+The solution is built around an Azure Virtual Network (VNet) using both public and private subnets.  
+Traffic is secured through Azure Firewall and Network Security Groups (NSGs).  
+Critical business data is protected using Azure SQL Database with backup and disaster recovery services.
+
+## Core Components
+- Azure Virtual Network (VNet)
+- Azure Load Balancer
+- Azure App Service
+- Azure Firewall & NSG
+- Azure SQL Database
+- Azure Blob Storage
+- Microsoft Entra ID (Azure Active Directory)
+- Azure Backup & Recovery Services
+
+## Key Design Principles
+- High Availability
+- Zero Trust Security
+- Least Privilege Access
+- Cost Optimization
+- Scalability
+
+## Technologies & Skills
+- Microsoft Azure
+- Cloud Architecture Design
+- Security & Identity Management
+- Cost Optimization
+- Networking & Infrastructure
+- Disaster Recovery & Business Continuity
+
+## Business Value
+This architecture ensures reliable service delivery, minimizes security risks, and reduces operational costs while supporting future growth.
+
